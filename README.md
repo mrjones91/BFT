@@ -2,13 +2,27 @@
 
 ![Bitcoin Fixes This](screenshots/screenshot000.png "Bitcoin Fixes This")
 
-### [Build](https://mrjones91.github.io/BFT/src/build/raylib_game.html)
 
-Install Raylib
+### [Play Now](https://mrjones91.github.io/BFT/src/build/raylib_game.html) 
+
+1) Clone Repo to play on your OS
+
+2) Known Bugs on Web:
+
+    Layout is wonky
+
+    Camera does not scroll on web
+
+
+### [Build]
+
+To build the game locally, you'll need to install [Raylib](https://raylib.com)
 
 NOTE. You may need 2 compiled versions. 1 for your OS 1 for building for Web.
 
 In src/Makefile the RAYLIB_SRC_PATH should be set to the specific Raylib build for the env you're deploying to.
+
+The game executable will be in the build folder after running `make`
 
 ### Description
 
